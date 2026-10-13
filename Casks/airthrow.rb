@@ -1,6 +1,6 @@
 cask "airthrow" do
-  version "0.1.3"
-  sha256 "c15be5aeab92dd3e6cb8336672f3354a7efec3f973ca5a7810b1b75691f139bd"
+  version "0.1.4"
+  sha256 "18f3a8ee07a61e4a7cee485db1e7ee3f01bc1006fd0d393c3cae17231b1fdfe1"
 
   url "https://github.com/marcocosta97/airthrow/releases/download/v#{version}/AirThrow-#{version}-arm64.zip"
   name "AirThrow"
