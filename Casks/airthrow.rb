@@ -1,6 +1,6 @@
 cask "airthrow" do
-  version "0.2.1"
-  sha256 "7c4ea68eae47e48da4339f581d3f5a32968a134ff1fc9fedcb5589b97eceda10"
+  version "0.2.2"
+  sha256 "d775ade8a56c711f0d25034cb25fc3b5ca1efe690ff8dc78288fb5a4b2412b7f"
 
   url "https://github.com/marcocosta97/airthrow/releases/download/v#{version}/AirThrow-#{version}-arm64.zip"
   name "AirThrow"
@@ -13,11 +13,4 @@ cask "airthrow" do
 
   app "AirThrow.app"
   binary "#{appdir}/AirThrow.app/Contents/MacOS/athrow"
-
-  caveats <<~EOS
-    AirThrow is ad-hoc signed and not notarized. On first launch macOS may
-    block it: open System Settings > Privacy & Security and choose
-    "Open Anyway" for AirThrow.app. The bundled athrow command line tool may
-    require separate approval.
-  EOS
 end
